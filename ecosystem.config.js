@@ -2,10 +2,10 @@ module.exports = {
     apps: [
       {
         name: 'express-200',
-        script: 'node_modules/.bin/tsx',
-        args: 'server.ts',
+        script: 'server.ts',
         watch: true,
         interpreter: 'node',
+        interpreter_args: '--experimental-modules',
         env_production: {
           NODE_ENV: 'production',
           PORT: 6879
