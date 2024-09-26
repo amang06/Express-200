@@ -4,7 +4,7 @@ module.exports = {
         name: 'express-200',
         script: 'server.ts',
         watch: true,
-        interpreter: './node_modules/.bin/ts-node',
+        interpreter: './node_modules/.bin/tsx',
         env_production: {
           NODE_ENV: 'production',
           PORT: 6879
