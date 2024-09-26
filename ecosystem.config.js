@@ -2,8 +2,8 @@ module.exports = {
     apps: [
       {
         name: 'SkyFunnel-Warmup-Service',
-        script: './node_modules/.bin/ts-node',
-        args: 'src/index.ts',
+        script: './node_modules/.bin/tsx',
+        args: 'server.ts',
         watch: true,
         env_production: {
           NODE_ENV: 'production',
